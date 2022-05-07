@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Weather Forecast</title>
+ <link rel="stylesheet" href="design.css">
+ <link rel="shortcut icon" href="https://cdn.weatherapi.com/weather/64x64/day/113.png" type="image/x-icon">
+</head>
+<body>
+ <nav>
+  <h1 class="heading">Weather Forecast</h1>
+  <ul>
+   <a style="color: white; text-decoration: none;" target="_blank" href="https://muhammedraiyaan2.github.io/Profile/"><li>Contact us</li></a>
+  </ul>
+ </nav>
+<div class="flex">
+ <input type="text" name="data" id="data" placeholder="Enter the place name">
+ <button id="sub">Search</button>
+</div><br>
+<div class="flex2">
+ <h1 class="text1">Celsius: <span id="textData1"> </span></h1>
+ <h1 class="text">Fahrenheit: <span id="textData2"> </span></h1>
+ <h1 class="text">Weather Type: <span id="textData3"> </span></h1>
+</div>
+<script src="logic.js"></script>
+</body>
+</html>

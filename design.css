@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap');
+
+*{
+ margin: 0;
+}
+nav{
+ background: skyblue;
+ display: flex;
+ color: white;
+ height: 60px;
+ align-items: center;
+ cursor: pointer; 
+}
+nav ul{
+ list-style: none;
+ font-family: 'Ubuntu', sans-serif;
+ margin-left: -1rem;
+}
+.heading{
+ margin-left: 1rem;
+ font-size: 2rem;
+ font-family: 'ABeeZee', sans-serif;
+ color: white;
+}
+.flex{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.flex2{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+@media screen and (max-width:490px) {
+ nav{
+  flex-direction: column;
+ }
+ .flex2{
+  flex-direction: column;
+  justify-content: flex-start;
+ }
+ .text{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  margin-left: 0;
+  justify-content: flex-start;
+  margin-right: 2rem;
+ }
+ .text1{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  margin-left: 5rem;
+  justify-content: flex-start;
+  margin-right: 2rem;
+ }
+}
+#data{
+ margin-top: 2rem;
+ border-radius: 10000px;
+ border: 1px black solid;
+ width: 17em;
+ padding: 1em;
+}
+#data:focus{
+ border: 1px orange solid;
+}
+#sub{
+ height: fit-content;
+ margin-top: 2rem;
+ margin-left: 1rem;
+ background: coral;
+ border: 0px;
+ color: white;
+ padding: 0.7rem 1.3rem;
+ border-radius: 0.3em;
+ font-family: 'Baloo Bhaijaan 2', cursive;
+ font-style: bold;
+}
+.text{
+ margin-left: 5rem;
+}
+.text,.text1{
+ color: lawngreen;
+ font-family: 'ABeeZee', sans-serif;
+}
+#textData1,#textData2,#textData3{
+ color: skyblue;
+}
