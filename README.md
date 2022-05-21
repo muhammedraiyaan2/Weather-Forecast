@@ -9,9 +9,7 @@ You can contact me in [GitHub](https://github.com/muhammedraiyaan2) or in my [Pr
 
 ![App Screenshot](https://muhammedraiyaan2.github.io/Server/Screenshot%20(316).png)
 
-## Developer💻
 
-- [@muhammedraiyaan2](https://github.com/muhammedraiyaan2)
 
 
 ### Uses
@@ -21,6 +19,9 @@ This project is used by the following things:
 - ✅To get the weather type
 
 
+## Developer💻
+
+- [@muhammedraiyaan2](https://github.com/muhammedraiyaan2)
 ## 🛠 Skills
 - *HTML*
 - *CSS*
